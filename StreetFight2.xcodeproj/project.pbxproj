@@ -12,6 +12,11 @@
 		0A0C94FE1C45650A00C0DAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C94FC1C45650A00C0DAF1 /* Main.storyboard */; };
 		0A0C95001C45650A00C0DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C94FF1C45650A00C0DAF1 /* Assets.xcassets */; };
 		0A0C95031C45650A00C0DAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95011C45650A00C0DAF1 /* LaunchScreen.storyboard */; };
+		0A0C950B1C45656900C0DAF1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C950A1C45656900C0DAF1 /* Character.swift */; };
+		0A0C950D1C45694100C0DAF1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C950C1C45694100C0DAF1 /* Player.swift */; };
+		0A0C950F1C456CF500C0DAF1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C950E1C456CF500C0DAF1 /* Enemy.swift */; };
+		0A0C95111C45A64A00C0DAF1 /* bckMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95101C45A64A00C0DAF1 /* bckMusic.wav */; };
+		0A0C95131C45A88B00C0DAF1 /* Slap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95121C45A88B00C0DAF1 /* Slap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0A0C94FF1C45650A00C0DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0C95021C45650A00C0DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0C95041C45650A00C0DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0C950A1C45656900C0DAF1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0A0C950C1C45694100C0DAF1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0A0C950E1C456CF500C0DAF1 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		0A0C95101C45A64A00C0DAF1 /* bckMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bckMusic.wav; sourceTree = "<group>"; };
+		0A0C95121C45A88B00C0DAF1 /* Slap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Slap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		0A0C94F71C45650A00C0DAF1 /* StreetFight2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A0C95101C45A64A00C0DAF1 /* bckMusic.wav */,
+				0A0C95121C45A88B00C0DAF1 /* Slap.wav */,
 				0A0C94F81C45650A00C0DAF1 /* AppDelegate.swift */,
 				0A0C94FA1C45650A00C0DAF1 /* ViewController.swift */,
 				0A0C94FC1C45650A00C0DAF1 /* Main.storyboard */,
 				0A0C94FF1C45650A00C0DAF1 /* Assets.xcassets */,
 				0A0C95011C45650A00C0DAF1 /* LaunchScreen.storyboard */,
 				0A0C95041C45650A00C0DAF1 /* Info.plist */,
+				0A0C950A1C45656900C0DAF1 /* Character.swift */,
+				0A0C950C1C45694100C0DAF1 /* Player.swift */,
+				0A0C950E1C456CF500C0DAF1 /* Enemy.swift */,
 			);
 			path = StreetFight2;
 			sourceTree = "<group>";
@@ -124,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0C95031C45650A00C0DAF1 /* LaunchScreen.storyboard in Resources */,
+				0A0C95131C45A88B00C0DAF1 /* Slap.wav in Resources */,
+				0A0C95111C45A64A00C0DAF1 /* bckMusic.wav in Resources */,
 				0A0C95001C45650A00C0DAF1 /* Assets.xcassets in Resources */,
 				0A0C94FE1C45650A00C0DAF1 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0C950D1C45694100C0DAF1 /* Player.swift in Sources */,
+				0A0C950F1C456CF500C0DAF1 /* Enemy.swift in Sources */,
+				0A0C950B1C45656900C0DAF1 /* Character.swift in Sources */,
 				0A0C94FB1C45650A00C0DAF1 /* ViewController.swift in Sources */,
 				0A0C94F91C45650A00C0DAF1 /* AppDelegate.swift in Sources */,
 			);
